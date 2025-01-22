@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.square{
+    border: 2px solid black;
+    flex:1 1 0;
+
+    aspect-ratio: 1 / 1;
+
+    box-sizing: border-box;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
